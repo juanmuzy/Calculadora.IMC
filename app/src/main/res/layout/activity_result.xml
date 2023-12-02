@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Seu IMC é: "
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        tools:text="OLá Juan!"/>
+
+    <TextView
+        android:textColor="@color/purple_700"
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:text="Classificação: Normal "
+        android:textSize="20sp"/>
+    <TextView
+        android:textColor="@color/purple_700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:textSize="20dp"
+        android:text="VEJA ABAIXO A TABELA:"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart = "18dp"
+        android:layout_marginVertical="6dp"
+        android:text="MENOR QUE 18,5 ESTÁ ABAIXO DO PESO MAGREZA"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginVertical="6dp"
+        android:text="ENTRE 18,5 E 24,9 ESTÁ COM O PESO NORMAL"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginVertical="6dp"
+        android:text="ENTRE 25,0 E 29,9 ESTÁ COM SOBREPESO NIVEL I "
+        android:textSize="17dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginVertical="6dp"
+        android:text="ENTRE 30,0 E 39,9 ESTA COM SOBREPESO NIVEL II"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginVertical="6dp"
+        android:text="MAIOR QUE 40,0 ESTÁ COM SOBREPESO NIVEL III OBESIDADE (GRAVE)"
+        android:textSize="17dp"/>
+
+
+
+</LinearLayout>
